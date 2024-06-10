@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add margin for spacing */
+  color: #333; /* Ensure good contrast with the background */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add margin for spacing */
+  color: #ff6347; /* Change color to a desired one */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+  animation: fadeIn 0.5s ease-in-out; /* Apply animation */
+}
+.total-entries {
+  background-color: #333; /* Example background color */
+  color: white; /* Example text color */
+  padding: 0px;
+}
+/* App.css */
+
+/* App.css */
+
+/* Container and Form Styling */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.contact-form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.contact-form h2 {
+  color: #007bff;
+}
+
+.total-entries p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Table Styling */
+.table {
+  margin-top: 2rem;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+}
